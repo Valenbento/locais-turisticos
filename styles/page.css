@@ -1,11 +1,13 @@
-#page{
+#page {
  max-width: 1120px;
  margin-inline: auto;    
 
 header{
-    img{border-radius: 2.8rem;
+    img {border-radius: 2.8rem;
     margin-bottom: 2.4rem;
-    height: 66rem;}
+    height: 66rem;
+}
+
     p{
     font-style: italic;
     text-align: center;
@@ -26,8 +28,8 @@ header{
     margin-bottom: 6.4rem;
 }
 
-.destino_1
-.destino_2
+.destino_1,
+.destino_2,
 .destino_3{
 
     img{
@@ -36,37 +38,39 @@ header{
         margin-bottom: 2rem;
         border-radius: 2.8rem;
     }
-}
+
 
 h3{
     font-size: 2.8rem;
     margin-bottom: 8.4rem;
 }
 
+
 p{
     margin-bottom: 2.4rem;
 }
+}
 
-.destino_1
+.destino_1,
 .destino_2{
     margin-bottom: 4.8rem;
 
-    li{
-        color:var(--accent-blue);
+    li {
+        color: var(--accent-blue);
     }
 
 }
 
 .destino_3{
     ul{
-        li::nth-of-type(1){
-            color:var(--accent-purple);
+        li:nth-of-type(1){
+            color: var(--accent-purple);
         }
-        li::nth-of-type(2){
+        li:nth-of-type(2){
            color: var(--accent-pink);
         }
 
-        li:::nth-of-type(3){
+        li:nth-of-type(3){
             color: var(--accent-orange);
         }
     }
